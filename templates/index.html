@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>ヒカキン・セイキン顔識別bot</title>
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+        <h1>
+            ヒカキン・セイキン顔識別bot
+        </h1>
+        <h2>
+            「検出する」を押したらしばらく何も押さずに待ってね！
+        </h2>
+        {% if Judge %}
+            <IMG SRC="{{filepath}} " BORDER="1"> <br>
+            <hr>
+        {% endif %}
+        
+        <form action ="./" method="POST" enctype="multipart/form-data">
+            <p style="text-align:center">
+                <input type = "file" name = "file" accept="image/*"/> 
+                <input type = "submit" value="検出する"/> 
+            </p>
+        </form> 
+        <p style="text-align:center">
+            <img src="./static/GIF/seikin.gif" alt="GIFアニメーションです" >
+            <img src="./static/GIF/hikakin.gif" alt="GIFアニメーションです" >
+        </p>
+    </body>
+</html>
