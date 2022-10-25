@@ -1,6 +1,13 @@
 # 説明
 物体検出深層学習モデル「YOLOv5」を用いた顔検出Webアプリケーション
 
+#デモ動画
+
+https://user-images.githubusercontent.com/83805342/197713489-ded3061e-849e-4618-a792-17c19400988e.mp4
+
+
+
+
 # 動作バージョン情報
 - Python: 3.8.0 以上
 - Pytorch: 1.7.0 以上
