@@ -6,12 +6,12 @@
 https://user-images.githubusercontent.com/83805342/197713489-ded3061e-849e-4618-a792-17c19400988e.mp4
 
 # 技術スタック
-- Webフレームワーク: Flask
-- 深層学習モデル構築フレームワーク: PyTorch
+- Webフレームワーク: **Flask**
+- 深層学習モデル構築フレームワーク: **PyTorch**
 
 # 動作バージョン情報
-- Python: 3.8.0 以上
-- PyTorch: 1.7.0 以上
+- **Python**: 3.8.0 以上
+- **PyTorch**: 1.7.0 以上
 
 # 挙動確認
 - 開発者が所有するPCで構築したDockerコンテナ環境下でアプリが正常動作することを確認.
