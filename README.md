@@ -20,7 +20,6 @@ https://user-images.githubusercontent.com/83805342/197713489-ded3061e-849e-4618-
 git clone https://github.com/Umadachi564/python_app
 cd python_app
 python3 app.py
-
 ```
 
 # 挙動確認
